@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.satyam</groupId>
-    <artifactId>01-SpringWebMVC</artifactId>
+    <artifactId>02-SpringWebMVC</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>01-SpringWebMVC</name>
-    <description>01-SpringWebMVC</description>
+    <name>02-SpringWebMVC</name>
+    <description>02-SpringWebMVC</description>
     <url/>
     <licenses>
         <license/>
@@ -28,7 +28,7 @@
         <url/>
     </scm>
     <properties>
-        <java.version>25</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -52,6 +52,14 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+
 
     </dependencies>
 
