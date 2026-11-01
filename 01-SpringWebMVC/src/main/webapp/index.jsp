@@ -4,6 +4,6 @@
     <title>Spring Web MVC Learning</title>
 </head>
 <body>
-    <h1>${Message}</h1>
+    <marquee>${Message}</marquee>
 </body>
 </html>

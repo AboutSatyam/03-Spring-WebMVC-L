@@ -24,7 +24,7 @@ public class FirstController {
 
         ModelAndView mav = new ModelAndView();
 
-        mav.addObject("Message", "Hello!,DAY 2  Welcome To Second Day Of Learning ");
+        mav.addObject("Message", "Hello! DAY 2  Welcome To Second Day Of Learning ");
         mav.setViewName("index");
         return mav;
     }
