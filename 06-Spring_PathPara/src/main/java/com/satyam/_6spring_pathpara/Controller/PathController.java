@@ -14,7 +14,7 @@ public class PathController {
     //  http://localhost:8080/CourseApp/getinfo/Satyam/Devops/9999
     @GetMapping("getinfo/{name}/{course}")
     public String getSomeInfo(@PathVariable("name") String n, @PathVariable("course") String c, Map<String, Object> model) {
-        String info = " Hello  " + n + " Welcome Backk!! in " + c + " Course";
+        String info = " Hello  " + n + " Welcome Backkk!! in " + c + " Course";
         model.put("msg", info);
 
         return "home";
